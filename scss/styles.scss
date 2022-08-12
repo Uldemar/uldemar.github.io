@@ -1,5 +1,84 @@
 @import "default.scss";
 
-body {
-    background: #181818;
+@font-face {
+	font-family: 'GraphikMedium';
+	src: url('../fonts/GraphikMedium.eot');
+	src: local('☺'), url('../fonts/GraphikMedium.woff') format('woff'), url('../fonts/GraphikMedium.ttf') format('truetype'), url('../fonts/GraphikMedium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;}
+
+@font-face {
+        font-family: 'GraphikRegular';
+        src: url('../fonts/GraphikRegular.eot');
+        src: local('☺'), url('../fonts/GraphikRegular.woff') format('woff'), url('../fonts/GraphikRegular.ttf') format('truetype'), url('../fonts/GraphikRegular.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+body{
+    color:beige;
+    background-color: #181818;
 }
+
+//wrapper - контейнер для помещения флекс блоков хедер, контент, футер
+.wrapper {
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; //чтобы оболочка заняла все окно браузера по высоте
+}
+
+.container {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+.main {
+    flex: 1 1 auto; //футер прижали контентом к низу
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ТЕСТИРУЕМ ПОДКЛЮЧЕНИЕ ШРИФТОВ
+.times {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding:20px;
+    
+}
+.Graphik_medium {
+    display: none;
+    font-family: 'GraphikMedium';
+    font-size: 16px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding:20px;
+}
+.Graphik_regular {
+    display: none;
+    font-family: 'GraphikRegular';
+    font-size: 16px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: normal;
+    border-radius: 10px;
+    padding:20px;
+} */
