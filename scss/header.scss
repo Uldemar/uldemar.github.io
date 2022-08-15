@@ -1,3 +1,9 @@
+
+
+
+.header{
+    background-color: #181818;
+}
 .header__container {
     display: flex;
     flex-direction: row;
@@ -7,6 +13,7 @@
     //border: #827777 1px solid;
     padding: 0px 30px;
     margin-bottom: 50px;
+    
     
 }
 
@@ -52,6 +59,11 @@
     color: #ffff;
 }
 
+.subheader__container{
+    margin-bottom: 85px;
+}
+
+
 .subheader{
     display: flex;
     flex-direction: column;
@@ -63,7 +75,7 @@
     padding: 0 245px 0 245px;
     //border: white solid 1px;
     gap: 17px;
-    margin-bottom: 85px;
+    
 
         &__slogan 
         {  

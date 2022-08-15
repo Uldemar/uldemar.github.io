@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.header {
+  background-color: #181818;
+}
+
 .header__container {
   display: flex;
   flex-direction: row;
@@ -53,6 +57,10 @@
   color: white;
 }
 
+.subheader__container {
+  margin-bottom: 85px;
+}
+
 .subheader {
   display: flex;
   flex-direction: column;
@@ -63,7 +71,6 @@
   min-height: 0px;
   padding: 0 245px 0 245px;
   gap: 17px;
-  margin-bottom: 85px;
 }
 .subheader__slogan {
   font-size: 80px;
