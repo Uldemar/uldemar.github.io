@@ -1,5 +1,9 @@
 
-
+.container {
+    display: flex;
+    max-width: 1219px;
+    margin: 0 auto;
+}
 
 .header{
     background-color: #181818;
@@ -10,7 +14,6 @@
     min-height: 118px;
     align-items: center;
     justify-content: center;
-    //border: #827777 1px solid;
     padding: 0px 30px;
     margin-bottom: 50px;
     

@@ -29,11 +29,7 @@ body{
     min-height: 100%; //чтобы оболочка заняла все окно браузера по высоте
 }
 
-.container {
-    display: flex;
-    max-width: 1219px;
-    margin: 0 auto;
-}
+
 
 .main {
     flex: 1 1 auto; //футер прижали контентом к низу
