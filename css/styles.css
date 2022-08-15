@@ -107,7 +107,6 @@ body {
 
 .container {
   display: flex;
-  max-width: 1219px;
   margin: 0 auto;
 }
 
@@ -195,6 +194,7 @@ body {
   flex-direction: row;
   max-width: 387px;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .link {
