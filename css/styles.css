@@ -74,44 +74,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-@imprt "header.scss"
-
-@font-face {
-  font-family: "GraphikMedium";
-  src: url("../fonts/GraphikMedium.eot");
-  src: local("☺"), url("../fonts/GraphikMedium.woff") format("woff"), url("../fonts/GraphikMedium.ttf") format("truetype"), url("../fonts/GraphikMedium.svg") format("svg");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "GraphikRegular";
-  src: url("../fonts/GraphikRegular.eot");
-  src: local("☺"), url("../fonts/GraphikRegular.woff") format("woff"), url("../fonts/GraphikRegular.ttf") format("truetype"), url("../fonts/GraphikRegular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-body {
-  color: beige;
-  background-color: #181818;
-}
-
-.wrapper {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-
-.container {
-  display: flex;
-  max-width: 1219px;
-  margin: 0 auto;
-}
-
-.main {
-  flex: 1 1 auto;
-}
-
 .header__container {
   display: flex;
   flex-direction: row;
@@ -250,4 +212,39 @@ body {
     font-weight: normal;
     border-radius: 10px;
     padding:20px;
-} *//*# sourceMappingURL=styles.css.map */
+} */
+@font-face {
+  font-family: "GraphikMedium";
+  src: url("../fonts/GraphikMedium.eot");
+  src: local("☺"), url("../fonts/GraphikMedium.woff") format("woff"), url("../fonts/GraphikMedium.ttf") format("truetype"), url("../fonts/GraphikMedium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GraphikRegular";
+  src: url("../fonts/GraphikRegular.eot");
+  src: local("☺"), url("../fonts/GraphikRegular.woff") format("woff"), url("../fonts/GraphikRegular.ttf") format("truetype"), url("../fonts/GraphikRegular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  color: beige;
+  background-color: #181818;
+}
+
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.container {
+  display: flex;
+  max-width: 1219px;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1 1 auto;
+}/*# sourceMappingURL=styles.css.map */
