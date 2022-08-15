@@ -1,11 +1,13 @@
+.header {
+  background-color: #181818;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .container {
   display: flex;
   max-width: 1219px;
   margin: 0 auto;
-}
-
-.header {
-  background-color: #181818;
 }
 
 .header__container {
@@ -68,9 +70,9 @@
   color: white;
   font-family: Graphik;
   letter-spacing: 0.2px;
-  min-height: 0px;
   padding: 0 245px 0 245px;
   gap: 17px;
+  margin-bottom: 85px;
 }
 .subheader__slogan {
   font-size: 80px;
@@ -92,7 +94,6 @@
   flex-direction: row;
   max-width: 387px;
   justify-content: space-between;
-  align-items: center;
 }
 
 .link {

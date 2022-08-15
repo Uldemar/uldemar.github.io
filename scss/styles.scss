@@ -1,5 +1,4 @@
 @import "default.scss";
-@import "header.scss";
 
 @font-face {
 	font-family: 'GraphikMedium';
@@ -28,7 +27,7 @@ body{
     flex-direction: column;
     min-height: 100%; //чтобы оболочка заняла все окно браузера по высоте
 }
-
+@import "header.scss";
 
 
 .main {

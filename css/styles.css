@@ -74,14 +74,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-.container {
+@font-face {
+  font-family: "GraphikMedium";
+  src: url("../fonts/GraphikMedium.eot");
+  src: local("☺"), url("../fonts/GraphikMedium.woff") format("woff"), url("../fonts/GraphikMedium.ttf") format("truetype"), url("../fonts/GraphikMedium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GraphikRegular";
+  src: url("../fonts/GraphikRegular.eot");
+  src: local("☺"), url("../fonts/GraphikRegular.woff") format("woff"), url("../fonts/GraphikRegular.ttf") format("truetype"), url("../fonts/GraphikRegular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  color: beige;
+}
+
+.wrapper {
+  overflow: hidden;
   display: flex;
-  max-width: 1219px;
-  margin: 0 auto;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .header {
   background-color: #181818;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  max-width: 1219px;
+  margin: 0 auto;
 }
 
 .header__container {
@@ -144,9 +171,9 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   font-family: Graphik;
   letter-spacing: 0.2px;
-  min-height: 0px;
   padding: 0 245px 0 245px;
   gap: 17px;
+  margin-bottom: 85px;
 }
 .subheader__slogan {
   font-size: 80px;
@@ -168,7 +195,6 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: row;
   max-width: 387px;
   justify-content: space-between;
-  align-items: center;
 }
 
 .link {
@@ -186,31 +212,6 @@ h1, h2, h3, h4, h5, h6 {
 .link:hover {
   background-color: #4452FE;
   border: #4452FE 1px solid;
-}
-
-@font-face {
-  font-family: "GraphikMedium";
-  src: url("../fonts/GraphikMedium.eot");
-  src: local("☺"), url("../fonts/GraphikMedium.woff") format("woff"), url("../fonts/GraphikMedium.ttf") format("truetype"), url("../fonts/GraphikMedium.svg") format("svg");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "GraphikRegular";
-  src: url("../fonts/GraphikRegular.eot");
-  src: local("☺"), url("../fonts/GraphikRegular.woff") format("woff"), url("../fonts/GraphikRegular.ttf") format("truetype"), url("../fonts/GraphikRegular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-body {
-  color: beige;
-}
-
-.wrapper {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
 }
 
 .main {
