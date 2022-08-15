@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .container {
   display: flex;
   max-width: 1219px;
@@ -116,36 +115,4 @@
 .link:hover {
   background-color: #4452FE;
   border: #4452FE 1px solid;
-}
-
-/* ТЕСТИРУЕМ ПОДКЛЮЧЕНИЕ ШРИФТОВ
-.times {
-    display: none;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    background-color: #ffffff;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    padding:20px;
-
-}
-.Graphik_medium {
-    display: none;
-    font-family: 'GraphikMedium';
-    font-size: 16px;
-    background-color: #ffffff;
-    margin-bottom: 20px;
-    font-weight: 500;
-    border-radius: 10px;
-    padding:20px;
-}
-.Graphik_regular {
-    display: none;
-    font-family: 'GraphikRegular';
-    font-size: 16px;
-    background-color: #ffffff;
-    margin-bottom: 20px;
-    font-weight: normal;
-    border-radius: 10px;
-    padding:20px;
-} *//*# sourceMappingURL=header.css.map */
+}/*# sourceMappingURL=header.css.map */
