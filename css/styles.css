@@ -118,7 +118,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__logo {
   flex: 0 0 206px;
-  margin: 20px auto 20px 30px;
 }
 
 .header__login {
@@ -136,10 +135,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__link {
   color: white;
-}
-
-.subheader__container {
-  margin-bottom: 85px;
 }
 
 .subheader {
@@ -174,8 +169,6 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 387px;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-  margin-bottom: 35px;
 }
 
 .link {
@@ -195,37 +188,6 @@ h1, h2, h3, h4, h5, h6 {
   border: #4452FE 1px solid;
 }
 
-/* ТЕСТИРУЕМ ПОДКЛЮЧЕНИЕ ШРИФТОВ
-.times {
-    display: none;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    background-color: #ffffff;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    padding:20px;
-
-}
-.Graphik_medium {
-    display: none;
-    font-family: 'GraphikMedium';
-    font-size: 16px;
-    background-color: #ffffff;
-    margin-bottom: 20px;
-    font-weight: 500;
-    border-radius: 10px;
-    padding:20px;
-}
-.Graphik_regular {
-    display: none;
-    font-family: 'GraphikRegular';
-    font-size: 16px;
-    background-color: #ffffff;
-    margin-bottom: 20px;
-    font-weight: normal;
-    border-radius: 10px;
-    padding:20px;
-} */
 @font-face {
   font-family: "GraphikMedium";
   src: url("../fonts/GraphikMedium.eot");
