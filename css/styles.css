@@ -114,31 +114,17 @@ body {
   margin: 0 245.5 px 50px 245.5px;
 }
 
+.header__logo {
+  flex: 0 0 206px;
+  margin-left: 30px;
+}
+
 .header__menu {
   display: flex;
-  flex: 0 1 auto;
+  flex: 1 1 393px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-
-.menu__list {
-  display: flex;
-  flex-direction: row;
-  gap: 31px;
-  flex: 1 1 1088px;
-}
-
-.menu__item {
-  font-family: "GraphikMedium";
-  color: white;
-  font-size: 16px;
-  font-weight: 500;
-  text-transform: capitalize;
-}
-
-.header__logo {
-  flex: 0 0 206px;
 }
 
 .header__login {
@@ -152,6 +138,22 @@ body {
   line-height: 25px;
   padding: 13.5px 46px;
   letter-spacing: 0.2px;
+  margin-right: 30px;
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 31px;
+}
+
+.menu__item {
+  font-family: "GraphikMedium";
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
 }
 
 .header__link {
