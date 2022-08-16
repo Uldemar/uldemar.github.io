@@ -197,16 +197,19 @@ body {
 
 .header__buttons {
   display: flex;
-  flex: 0 0 387px;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
+  gap: 35px;
+  margin-bottom: 35px;
 }
 
 .head-button {
   width: 178px;
   height: 65px;
-  padding: 20px 42px;
+  padding: 20px 17.5px;
+  text-align: center;
 }
 
 .link {
