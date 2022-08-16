@@ -112,11 +112,15 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0 245.5 px 50px 245.5px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .header__logo {
   flex: 0 0 206px;
-  margin-left: 30px;
+}
+.header__logo img {
+  width: 100%;
 }
 
 .header__menu {
@@ -128,62 +132,32 @@ body {
 }
 
 .header__login {
-  font-family: "GraphikMedium";
-  text-transform: capitalize;
-  font-weight: normal;
-  font-size: 16px;
-  flex: 0 0 139px;
-  border: white solid 1px;
+  flex: 0 0 206px;
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  width: 139px;
   height: 52px;
-  line-height: 25px;
   padding: 13.5px 46px;
-  letter-spacing: 0.2px;
-  margin-right: 30px;
 }
 
 .menu__list {
   display: flex;
+  flex: 1 1 393px;
   flex-direction: row;
   justify-content: center;
-  gap: 31px;
+  gap: 35px;
 }
 
 .menu__item {
   font-family: "GraphikMedium";
   color: white;
   font-size: 16px;
+  line-height: 24px;
   font-weight: 500;
   text-transform: capitalize;
-}
-
-.header__link {
-  color: white;
-}
-
-.subheader {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  font-family: Graphik;
-  letter-spacing: 0.2px;
-  padding: 0 245px 0 245px;
-  gap: 17px;
-  margin-bottom: 85px;
-}
-.subheader__slogan {
-  font-size: 80px;
-  font-weight: 500;
-  line-height: 88px;
-  text-align: center;
-  padding: 0 50px;
-}
-.subheader__explanation {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: center;
-  padding: 0 100px;
 }
 
 .header__buttons {
@@ -194,13 +168,17 @@ body {
   margin: 0 auto;
 }
 
+.head-button {
+  width: 178px;
+  height: 65px;
+  padding: 20px 42px;
+}
+
 .link {
   display: inline-block;
-  min-height: 65px;
   font-size: 16px;
   font-weight: normal;
   font-family: "GraphikMedium";
-  padding: 20px 30px;
   line-height: 25px;
   color: white;
   border: white 1px solid;
