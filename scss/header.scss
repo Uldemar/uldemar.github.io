@@ -40,6 +40,7 @@
 
 .menu__list {
     display: flex;
+    flex 1 1 393px;
     flex-direction: row;
     justify-content: center;
     gap: 31px;
@@ -57,35 +58,7 @@
     color: #ffff;
 }
 
-.subheader{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    color: white;
-    font-family: Graphik;
-    letter-spacing: 0.2px;
-    padding: 0 245px 0 245px;
-    gap: 17px;
-    margin-bottom: 85px;
-        &__slogan 
-        {  
-        font-size: 80px;
-        font-weight: 500;
-        line-height: 88px;
-        text-align: center;
-        padding: 0 50px;
-        }
-        
-        &__explanation
-        {
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 30px;
-        text-align: center;
-        padding: 0 100px;
-        }
-       
-}
+
 
 .header__buttons {
 display: flex;
