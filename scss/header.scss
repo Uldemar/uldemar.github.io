@@ -12,29 +12,23 @@
     justify-content: center;
     margin: 0 245.5 px 50px 245.5px
 }
+
+.header__logo{
+    flex: 0 0 206px;
+}
+
 .header__menu{
     display: flex;
     flex: 0 1 auto;
     flex-direction: row;
     align-items: center; // по середине по высоте
     justify-content: center; // по середине блока по ширине
-}
-.menu__list {
-    display: flex;
-    flex-direction: row;
-    gap: 31px;
-    flex: 1 1 1088px;
-}
-.menu__item{
-    font-family: 'GraphikMedium';
-    color: #ffff;
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: capitalize;
-}
 
-.header__logo{
-    flex: 0 0 206px;
+
+
+
+
+
 }
 
 .header__login{
@@ -49,6 +43,24 @@
     padding: 13.5px 46px;
     letter-spacing: 0.2px;
 }
+
+
+
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+    flex: 1 1 1088px;
+}
+.menu__item{
+    font-family: 'GraphikMedium';
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
 .header__link{
     color: #ffff;
 }

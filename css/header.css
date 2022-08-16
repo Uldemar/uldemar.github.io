@@ -13,12 +13,29 @@
   margin: 0 245.5 px 50px 245.5px;
 }
 
+.header__logo {
+  flex: 0 0 206px;
+}
+
 .header__menu {
   display: flex;
   flex: 0 1 auto;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.header__login {
+  font-family: "GraphikMedium";
+  text-transform: capitalize;
+  font-weight: normal;
+  font-size: 16px;
+  flex: 0 0 139px;
+  border: white solid 1px;
+  height: 52px;
+  line-height: 25px;
+  padding: 13.5px 46px;
+  letter-spacing: 0.2px;
 }
 
 .menu__list {
@@ -34,23 +51,6 @@
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
-}
-
-.header__logo {
-  flex: 0 0 206px;
-}
-
-.header__login {
-  font-family: "GraphikMedium";
-  text-transform: capitalize;
-  font-weight: normal;
-  font-size: 16px;
-  flex: 0 0 139px;
-  border: white solid 1px;
-  height: 52px;
-  line-height: 25px;
-  padding: 13.5px 46px;
-  letter-spacing: 0.2px;
 }
 
 .header__link {
