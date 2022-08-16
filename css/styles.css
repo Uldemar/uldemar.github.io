@@ -228,7 +228,8 @@ body {
 }
 
 .header__screens {
-  width: 1579px;
+  max-width: 1579px;
+  max-height: 993px;
   border: 1px white solid;
   padding: 0 auto;
 }

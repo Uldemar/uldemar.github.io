@@ -91,8 +91,6 @@
 
     
 }
-
-
 .header__buttons {
 display: flex;
 flex-direction: row;
@@ -125,9 +123,13 @@ margin-bottom: 35px;
     }
 }
 .header__screens {
-    width: 1579px;
+    max-width: 1579px;
+    max-height: 993px;
     border: 1px white solid;
     padding: 0 auto;
+    img{
+        max-width: 100%;
+    }
 }
 
 
