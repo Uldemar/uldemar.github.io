@@ -228,10 +228,13 @@ body {
 }
 
 .header__screens {
-  max-width: 1579px;
   max-height: 993px;
-  border: 1px white solid;
-  padding: 0 auto;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 100%);
+}
+.header__screens img {
+  display: block;
+  max-width: 100%;
 }
 
 .main {

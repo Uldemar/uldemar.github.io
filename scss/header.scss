@@ -123,11 +123,12 @@ margin-bottom: 35px;
     }
 }
 .header__screens {
-    max-width: 1579px;
     max-height: 993px;
-    border: 1px white solid;
-    padding: 0 auto;
+    width: 100%;
+    //border: 1px white solid;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 100%);
     img{
+        display: block;
         max-width: 100%;
     }
 }
