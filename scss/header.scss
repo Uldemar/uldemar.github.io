@@ -1,6 +1,6 @@
 
 .header{
-    background-color: #181818;
+    //background-color: #181818;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -124,12 +124,13 @@ margin-bottom: 35px;
 }
 .header__screens {
     max-height: 993px;
-    width: 100%;
+    padding-bottom: 150px;
     //border: 1px white solid;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 100%);
     img{
         display: block;
         max-width: 100%;
+        opacity: 0,92;
     }
 }
 
