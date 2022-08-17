@@ -90,6 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 body {
   background-color: #181818;
+  color: white;
 }
 
 .wrapper {
@@ -234,9 +235,14 @@ body {
 .header__screens img {
   display: block;
   max-width: 100%;
-  opacity: 0, 2;
+  opacity: 0, 92;
 }
 
 .main {
   flex: 1 1 auto;
+}
+
+.features {
+  max-width: 1479px;
+  margin: 0 auto;
 }/*# sourceMappingURL=styles.css.map */

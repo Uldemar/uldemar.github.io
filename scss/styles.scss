@@ -17,9 +17,9 @@
 
 body{
     background-color: #181818;
+    color: white;
     
 }
-
 //wrapper - контейнер для помещения флекс блоков хедер, контент, футер
 .wrapper {
     overflow:hidden;
@@ -29,8 +29,13 @@ body{
 }
 @import "header.scss";
 
-
 .main {
     flex: 1 1 auto; //футер прижали контентом к низу
 }
 
+//-------------main---------------------------------//
+
+.features{
+    max-width: 1479px;
+    margin: 0 auto;
+}
