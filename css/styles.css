@@ -332,4 +332,31 @@ body {
 }
 .tipsblock .tip:last-child {
   margin-bottom: 20px;
+}
+.contents {
+  max-width: 985px;
+  margin: 0 auto;
+}
+
+.contents__column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.contents__cardsbox {
+  display: flex;
+  flex: 1 0 625px;
+  flex-direction: row;
+  max-width: 985px;
+  justify-content: space-between;
+}
+
+.contents__card {
+  max-width: 476px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 40px, 0px, 40px, 0px;
+  overflow: hidden;
 }/*# sourceMappingURL=styles.css.map */
