@@ -1,8 +1,8 @@
 .header {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, 100%);
-  max-width: 100%;
-  margin: 0 auto;
+  max-width: 100vw;
+  align-items: center;
   margin-bottom: 100px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 100%);
 }
 
 .header__container {
@@ -11,9 +11,10 @@
   min-height: 118px;
   align-items: center;
   justify-content: center;
-  margin: 0 245.5 px 50px 245.5px;
+  margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
+  max-width: 1097px;
 }
 
 .header__logo {
@@ -130,6 +131,8 @@
 .header__screens {
   max-height: 993px;
   padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
 }
 .header__screens img {
   display: block;
