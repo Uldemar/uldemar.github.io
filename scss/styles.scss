@@ -210,3 +210,34 @@ body{
             bottom: -35px;
         }}
 //----коррекция позиции правой карточки контентс-----///
+
+.button{
+    display: flex;
+    font-family: 'GraphikMedium';
+    height: 52px;
+    background-color: #4452FE;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 20px 36px;
+    transition-duration: 0.2s;
+    &:hover{
+        background-color: #0015fc;
+        border: #4452FE 1px solid;
+        box-shadow: 2px 2px 10px 10px #D8D8D8(71, 18, 114, 0.7);
+        transition-duration: 0.2s;
+    &:active{
+        background-color: #101a88;
+        box-shadow: 2px 2px 10px 10px #D8D8D8(71, 18, 114, 0.9);
+        border: #4452FE 1px solid;
+    }
+    }
+    a{
+        display: block;
+        align-self: center;
+        color: white;
+    }
+
+}
