@@ -375,9 +375,11 @@ body {
   padding: 40px 0px;
   overflow: hidden;
 }
+.contents__card .contents__head-container {
+  max-width: 288px;
+  flex: 1 0 auto;
+}
 .contents__card .card__header {
-  background-color: aquamarine;
-  flex: 0 0 10%;
   padding: 10px;
   color: rgb(0, 0, 0);
   font-family: "GraphikMedium";
@@ -389,7 +391,6 @@ body {
   letter-spacing: 0.1px;
 }
 .contents__card .card__text {
-  flex: 1 0 auto;
   font-family: "GraphikRegular";
   font-size: 16px;
   font-weight: 400;
