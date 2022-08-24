@@ -1,0 +1,138 @@
+.header {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  min-height: 118px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 245.5 px 50px 245.5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.header__logo {
+  flex: 0 0 206px;
+}
+.header__logo img {
+  width: 100%;
+}
+
+.header__menu {
+  display: flex;
+  flex: 1 1 393px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__login {
+  flex: 0 0 206px;
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  width: 139px;
+  height: 52px;
+  padding: 13.5px 46px;
+}
+
+.menu__list {
+  display: flex;
+  flex: 1 1 393px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 35px;
+}
+
+.menu__item {
+  font-family: "GraphikMedium";
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.header__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+  margin-bottom: 35px;
+}
+
+.header__text-big {
+  flex: 0 0 176px;
+  max-width: 729px;
+  font-family: "GraphikMedium";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 80px;
+  line-height: 88px;
+  letter-spacing: 0.2px;
+  padding: 10px;
+  margin-bottom: 17px;
+}
+
+.header__text-small {
+  flex: 0 0 60px;
+  max-width: 602px;
+  font-family: "GraphikRegular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  padding: 10px;
+}
+
+.header__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 35px;
+  margin-bottom: 35px;
+}
+
+.head-button {
+  width: 178px;
+  height: 65px;
+  padding: 20px 17.5px;
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "GraphikMedium";
+  line-height: 25px;
+  color: white;
+  border: white 1px solid;
+  border-radius: 5px;
+}
+.link:hover {
+  background-color: #4452FE;
+  border: #4452FE 1px solid;
+}
+
+.header__screens {
+  max-height: 993px;
+  padding-bottom: 150px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 100%);
+}
+.header__screens img {
+  display: block;
+  max-width: 100%;
+  opacity: 0, 92;
+}/*# sourceMappingURL=header.css.map */
