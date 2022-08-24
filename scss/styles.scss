@@ -50,12 +50,12 @@ body{
     flex: 1 1 auto; //футер прижали контентом к низу
 }
 
-//-------------main---------------------------------//
+//-------------main-------------------------------------//
 
 .features{
     max-width: 1479px;
     margin: 0 auto;
-    margin-bottom: 104px;
+    margin-bottom: 100px;
     padding-top: 62px;
     display: flex;
     flex-direction: column;
@@ -128,9 +128,7 @@ body{
         &:last-child{
             margin-bottom: 20px;
         }
-        &title{
-            
-        }
+       
     }
     
 
