@@ -262,6 +262,7 @@ body {
 .features {
   max-width: 1479px;
   margin: 0 auto;
+  margin-bottom: 100px;
   padding-top: 62px;
   display: flex;
   flex-direction: column;
@@ -334,6 +335,9 @@ body {
 .contents {
   max-width: 985px;
   margin: 0 auto;
+}
+.contents__header {
+  margin-bottom: 10px;
 }
 
 .contents__column {
