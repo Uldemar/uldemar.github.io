@@ -1,11 +1,9 @@
 
 .header{
-    //border: #4452FE 1px solid;
     max-width: 100vw;
-    //margin: 0 auto;
     align-items: center;
     margin-bottom: 100px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #0E0E0E 100%) 50% 50%;
 }
 .header__container {
     display: flex;
