@@ -1,4 +1,5 @@
 .header {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, 100%);
   max-width: 100%;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -129,7 +130,6 @@
 .header__screens {
   max-height: 993px;
   padding-bottom: 150px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 100%);
 }
 .header__screens img {
   display: block;
