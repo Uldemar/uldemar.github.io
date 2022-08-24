@@ -336,14 +336,10 @@ body {
 .contents {
   max-width: 985px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
 }
 .contents__header {
   padding: 10px;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+  max-width: 591px;
   align-self: center;
 }
 .contents__subheader {
@@ -356,8 +352,6 @@ body {
 .contents__column {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  justify-content: center;
 }
 
 .contents__cardsbox {
@@ -369,9 +363,25 @@ body {
 }
 
 .contents__card {
-  max-width: 476px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 476px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  padding: 40px, 0px, 40px, 0px;
+  padding: 40px 0px;
   overflow: hidden;
+}
+.contents__card .card__header {
+  background-color: aquamarine;
+  flex: 0 0 10%;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  font-family: "GraphikMedium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.1px;
 }/*# sourceMappingURL=styles.css.map */
