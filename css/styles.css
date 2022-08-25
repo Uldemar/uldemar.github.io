@@ -443,4 +443,19 @@ body {
 }
 .card__image img {
   max-width: 100%;
+}
+
+.left-card-image img:first-child {
+  display: block;
+  position: relative;
+  z-index: 2;
+  top: 25px;
+  left: 0;
+}
+.left-card-image img:last-child {
+  display: block;
+  position: relative;
+  z-index: 3;
+  top: 0;
+  left: 0;
 }/*# sourceMappingURL=styles.css.map */

@@ -245,3 +245,20 @@ body{
         max-width: 100%;
     }
 }
+
+.left-card-image img{
+    &:first-child{
+        display:block;
+        position: relative;
+        z-index: 2;
+        top: 25px;
+        left:0;
+    }
+    &:last-child{
+        display:block;
+        position: relative;
+        z-index: 3;
+        top:0;
+        left:0;
+    }
+}
