@@ -452,4 +452,5 @@ body {
 .left-card-image img:last-child {
   position: relative;
   z-index: 2;
+  opacity: 0.2;
 }/*# sourceMappingURL=styles.css.map */
