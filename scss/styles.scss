@@ -252,15 +252,10 @@ body{
         &:first-child{
             position: absolute;
             z-index: 1;
-            
         }
         &:last-child{
             position:relative;
             z-index: 2;
-            
-            
-            
-
         }
     } 
 }
