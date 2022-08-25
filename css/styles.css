@@ -443,8 +443,4 @@ body {
 }
 .card__image img {
   max-width: 100%;
-}
-
-.left-card-image:nth-child(1) {
-  display: none;
 }/*# sourceMappingURL=styles.css.map */
