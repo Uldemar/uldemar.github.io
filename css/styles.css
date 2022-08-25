@@ -436,9 +436,10 @@ body {
 .card__image {
   border: red 1px solid;
   max-height: 320px;
-  max-width: 90%;
+  max-width: 96%;
   border-radius: 5px;
   overflow: hidden;
+  text-align: center;
 }
 .card__image img {
   max-width: 100%;

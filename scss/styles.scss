@@ -237,18 +237,18 @@ body{
 .card__image{
     border: red 1px solid ;
     max-height: 320px;
-    max-width: 90%;
+    max-width: 96%;
     border-radius: 5px;
     overflow: hidden;
+    text-align: center;
     img{
         max-width: 100%;
     }
 }
 
-.left-card-image {
+.left-card-image{
     
-    img{
-        
+ img {
         &:first-child{
             position: absolute;
             z-index: 1;
@@ -257,5 +257,5 @@ body{
             position:relative;
             z-index: 2;
         }
-    } 
+}
 }
