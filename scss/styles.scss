@@ -235,30 +235,32 @@ body{
 }
 
 .card__image{
-    display:flex;
     border: red 1px solid ;
-    overflow: visible;
     max-height: 320px;
     max-width: 90%;
     border-radius: 5px;
+    overflow: hidden;
     img{
         max-width: 100%;
     }
 }
 
-.left-card-image img{
-    &:first-child{
-        display:block;
-        position: relative;
-        z-index: 2;
-        top: 25px;
-        left:0;
-    }
-    &:last-child{
-        display:block;
-        position: relative;
-        z-index: 3;
-        top:0;
-        left:0;
-    }
+.left-card-image {
+    
+    img{
+        
+        &:first-child{
+            position: absolute;
+            z-index: 1;
+            
+        }
+        &:last-child{
+            position:relative;
+            z-index: 2;
+            
+            
+            
+
+        }
+    } 
 }
