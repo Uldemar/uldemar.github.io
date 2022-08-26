@@ -448,9 +448,10 @@ body {
 .left-card-image img:first-child {
   position: absolute;
   z-index: 1;
+  zoom: 1.1;
 }
 .left-card-image img:last-child {
+  visibility: none;
   position: relative;
   z-index: 2;
-  opacity: 0.2;
 }/*# sourceMappingURL=styles.css.map */

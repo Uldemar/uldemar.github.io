@@ -250,14 +250,19 @@ body{
     
  img {
         &:first-child{
+            //macbook
             position: absolute;
             z-index: 1;
+            zoom:1.1;
+            
             
         }
         &:last-child{
+            //screen
+            visibility: none;
             position:relative;
             z-index: 2;
-            opacity: 0.2;
+            
         }
 }
 }
