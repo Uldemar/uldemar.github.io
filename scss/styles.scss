@@ -31,7 +31,7 @@ body{
 
 //-------------заголовок и подзаголовок всех страниц--------------//
 .headbox{
-    border:#0015fc 1px solid;
+    border:white 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,37 +41,35 @@ body{
     max-width: 591px;
     margin: 0 auto 44px auto;
     .headbox__title{
-        border:red 1px solid;
         padding: 10px;
         font-family: 'GraphikRegular';
         font-size: 52px;
         line-height: 62px;}
     .headbox__subtitle{
-        border: green 1px solid;
         padding: 10px;
         font-family: 'GraphikRegular'; 
         font-size: 20px;
         line-height: 30px;}
     }
-//-------------заголовок и подзаголовок всех страниц--------------//
-
-
-
 
 .main {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
     flex: 1 1 auto; //футер прижали контентом к низу
 }
 
-//-------------main-------------------------------------//
+//--------------features--------------//
 
 .features__column{
     max-width: 1479px;
     margin: 0 auto;
-    margin-bottom: 100px;
     padding-top: 62px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+
         .features__infoblock{
         display: flex;
         flex-direction: row;
@@ -128,10 +126,10 @@ body{
 }
 
 //------------contents-----------------------//
-
 .contents__column{
     display:flex;
-    flex-direction: column;}
+    flex-direction: column; 
+    margin-bottom: 100px;}
 .contents__cardsbox{
     display: flex;
     flex: 0 0 625px; //база контейнера по высоте 625px, но может расшираться
@@ -204,6 +202,8 @@ body{
     img{
         max-width: 100%;}}
 .left-card-image{
+
+
     align-items: center;
     position:relative;
  img {
@@ -214,8 +214,38 @@ body{
             zoom:1.1;
             top:25px;        }
         &:last-child{
+
             //screen
             position:relative;
             zoom:0.24;
             z-index: 2;
             bottom: 890px;}}}
+
+//--------------gallery----------------------//
+
+.gallery{
+    border: red 1px solid;
+    max-width: 1087px;
+    flex: 1 1 auto;
+    margin: 0 auto;}
+
+.gallery__column{
+    display: flex;
+    flex-direction: column;}
+
+.gallery__photoline{
+    display:flex;
+    flex-direction: row;
+    margin: 44px auto;
+    justify-content: center;
+    flex-wrap: wrap;}
+
+.gallery__photo{
+    max-height: 285px;
+    max-width: 225px;
+    overflow: hidden;
+    img{
+        object-fit:scale-down;
+        border-radius: 10px;
+    }
+}

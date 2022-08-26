@@ -241,7 +241,7 @@ body {
 }
 
 .headbox {
-  border: #0015fc 1px solid;
+  border: white 1px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -252,14 +252,12 @@ body {
   margin: 0 auto 44px auto;
 }
 .headbox .headbox__title {
-  border: red 1px solid;
   padding: 10px;
   font-family: "GraphikRegular";
   font-size: 52px;
   line-height: 62px;
 }
 .headbox .headbox__subtitle {
-  border: green 1px solid;
   padding: 10px;
   font-family: "GraphikRegular";
   font-size: 20px;
@@ -267,13 +265,15 @@ body {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
   flex: 1 1 auto;
 }
 
 .features__column {
   max-width: 1479px;
   margin: 0 auto;
-  margin-bottom: 100px;
   padding-top: 62px;
   display: flex;
   flex-direction: column;
@@ -335,6 +335,7 @@ body {
 .contents__column {
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 .contents__cardsbox {
@@ -438,4 +439,35 @@ body {
   zoom: 0.24;
   z-index: 2;
   bottom: 890px;
+}
+
+.gallery {
+  border: red 1px solid;
+  max-width: 1087px;
+  flex: 1 1 auto;
+  margin: 0 auto;
+}
+
+.gallery__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery__photoline {
+  display: flex;
+  flex-direction: row;
+  margin: 44px auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery__photo {
+  max-height: 285px;
+  max-width: 225px;
+  overflow: hidden;
+}
+.gallery__photo img {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  border-radius: 10px;
 }/*# sourceMappingURL=styles.css.map */
