@@ -266,7 +266,6 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  gap: 100px;
   flex: 1 1 auto;
 }
 
@@ -390,6 +389,7 @@ body {
   letter-spacing: 0.2px;
   border-radius: 5px;
   justify-content: center;
+  align-items: center;
   padding: 20px 36px;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
@@ -487,9 +487,9 @@ body {
   justify-content: space-between;
   margin: 0 auto;
   max-width: 832px;
+  margin-bottom: 50px;
 }
 
 .gallery__button {
-  text-align: center;
-  display: inline-block;
+  margin: 0 auto 50px auto;
 }/*# sourceMappingURL=styles.css.map */
