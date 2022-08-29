@@ -175,9 +175,11 @@ body{
     border-radius: 5px;
     justify-content: center;
     padding: 20px 36px;
+    max-width: fit-content;
     transition-duration: 0.2s;
     box-shadow: 0 5px 0px #3c354a;
     margin-bottom: 20px;
+    align-self: center;
     &:hover{
         background-color: #0015fc;
         box-shadow: 2px 2px 4px 10px #6d6d6d(71, 18, 114, 0.7);
@@ -225,7 +227,7 @@ body{
 .gallery{
     max-width: 1087px;
     flex: 0 1 auto;
-    margin: 0 auto;}
+    margin: 0 auto 50px auto;}
 
 .gallery__column{
     display: flex;
@@ -237,17 +239,19 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 33px;
-    }
+    margin-bottom: 44px;}
 
 .gallery__photo{
     height: 285px;
     overflow: hidden;
     flex: 1 1 225px;
     border-radius: 10px;
-    
     img{
         height: 100%;
         width: 100%;
-        object-fit: cover;
-    }
-}
+        object-fit: cover;}}
+
+.gallery__button{
+    
+    flex: 0 1 52px;
+}        

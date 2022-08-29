@@ -391,9 +391,13 @@ body {
   border-radius: 5px;
   justify-content: center;
   padding: 20px 36px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
   transition-duration: 0.2s;
   box-shadow: 0 5px 0px #3c354a;
   margin-bottom: 20px;
+  align-self: center;
 }
 .button:hover {
   background-color: #0015fc;
@@ -443,7 +447,7 @@ body {
 .gallery {
   max-width: 1087px;
   flex: 0 1 auto;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
 }
 
 .gallery__column {
@@ -457,6 +461,7 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 33px;
+  margin-bottom: 44px;
 }
 
 .gallery__photo {
@@ -470,4 +475,8 @@ body {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.gallery__button {
+  flex: 0 1 52px;
 }/*# sourceMappingURL=styles.css.map */
