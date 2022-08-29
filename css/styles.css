@@ -479,4 +479,17 @@ body {
 
 .gallery__button {
   flex: 0 1 52px;
+}
+
+.partners__logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 832px;
+}
+
+.gallery__button {
+  text-align: center;
+  display: inline-block;
 }/*# sourceMappingURL=styles.css.map */
