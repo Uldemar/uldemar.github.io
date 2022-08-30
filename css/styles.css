@@ -481,15 +481,51 @@ body {
   flex: 0 1 52px;
 }
 
+.partners {
+  max-width: 832px;
+  margin: 0 auto;
+}
+
 .partners__logos {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 auto;
-  max-width: 832px;
   margin-bottom: 50px;
 }
 
 .gallery__button {
   margin: 0 auto 50px auto;
+}
+
+.testimonials__contaier {
+  max-width: 886px;
+  margin: 0 auto;
+}
+
+.testimonials__row {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-family: "GraphikMedium";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  font-weight: 400;
+  border: 1px red solid;
+}
+
+.testimonials__story {
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px #DEDEDE solid;
+  flex: 1 1 430px;
+  overflow: hidden;
+  background-color: #3c354a;
+}
+.testimonials__story .story {
+  font-size: 12px;
 }/*# sourceMappingURL=styles.css.map */
