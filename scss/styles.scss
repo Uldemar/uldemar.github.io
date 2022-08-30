@@ -87,7 +87,6 @@ body{
                 
             }
         }}
-
 .tipsblock{
     display:flex;
     flex-direction: column;
@@ -121,8 +120,7 @@ body{
         &:last-child{
             margin-bottom: 20px;
         }
-    }
-}
+    }}
 
 //------------contents-----------------------//
 .contents__column{
@@ -272,9 +270,8 @@ body{
 
 .testimonials__container {
     max-width: 886px;
-    margin: 80px auto;
-}
-
+    margin: 0px auto;
+    margin-bottom: 80px;}
 .testimonials__row {
     max-width: 100%;
     display: flex;
@@ -287,10 +284,7 @@ body{
     line-height: 24px;
     letter-spacing: 0.2px;
     text-align: left;
-    font-weight: 400;
-    
-}
-
+    font-weight: 400;}
 .testimonials__story{
     padding: 40px;
     border-radius: 10px;
@@ -302,7 +296,6 @@ body{
         display: flex;
         max-width: 100%;
         margin-bottom: 30px;
-        
         img{
             max-width: 25%;
             min-width: 50px;
@@ -313,35 +306,48 @@ body{
         .name-job{
             flex: 0 1 auto;
             max-height: auto;
-            padding-left: 8px; }
-    }    
+            padding-left: 8px; }    }    
     .story{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
-        font-style: italic;
-        
-    }
-}
+        font-style: italic;    }}
 
 //-------------------call to action-------------//
 
 .cta__contaier{
     max-width: 100%;
-}
-
+    padding: 80px auto;}
 .cta__row{
     display: flex;
     flex-direction: row;
     max-width: 1220px;
-    border: #0015fc 1px solid;
+    margin: 0 auto;
     max-height: 370px;
     overflow: hidden;
-}
+    border-radius: 20px;
+    background-color: #343434;
+    align-items: center;
+    justify-content: center;
+    gap:80px;}
 .cta__item{
-    background-color: #3c354a;
+    //border: #0015fc 1px solid;
     flex: 1 1 50%;
-    
-    
-}
+    text-align: left;}
+.cta__left-item{
+    //border: #0015fc 1px solid;
+    width: fit-content;
+    margin: 0 auto;
+    padding-left: 50px;
+    a{
+       width: fit-content;
+       }}
+.cta__right-item{
 
+    //position: absolute;
+    
+    img{
+        position: relative;
+        top: 170px;
+    }}
 
+//--------------------footer---------------------------//
