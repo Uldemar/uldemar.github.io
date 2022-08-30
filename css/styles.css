@@ -497,12 +497,9 @@ body {
   margin: 0 auto 50px auto;
 }
 
-.testimonials__contaier {
+.testimonials__container {
   max-width: 886px;
-  margin: 0 auto;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  margin: 80px auto;
 }
 
 .testimonials__row {
@@ -510,6 +507,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: space-around;
   gap: 20px;
   font-family: "GraphikMedium";
   font-size: 16px;
@@ -550,4 +548,22 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-style: italic;
+}
+
+.cta__contaier {
+  max-width: 100%;
+}
+
+.cta__row {
+  display: flex;
+  flex-direction: row;
+  max-width: 1220px;
+  border: #0015fc 1px solid;
+  max-height: 370px;
+  overflow: hidden;
+}
+
+.cta__item {
+  background-color: #3c354a;
+  flex: 1 1 50%;
 }/*# sourceMappingURL=styles.css.map */

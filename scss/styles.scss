@@ -270,11 +270,9 @@ body{
 
 //------------testimonials--------------//
 
-
-.testimonials__contaier{
+.testimonials__container {
     max-width: 886px;
-    margin: 0 auto;
-    height: fit-content;
+    margin: 80px auto;
 }
 
 .testimonials__row {
@@ -282,7 +280,8 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    align-content: space-around;
+    gap:20px;
     font-family: 'GraphikMedium';
     font-size: 16px;
     line-height: 24px;
@@ -290,11 +289,6 @@ body{
     text-align: left;
     font-weight: 400;
     
-    
-    
-    
-    
-
 }
 
 .testimonials__story{
@@ -327,6 +321,27 @@ body{
         font-style: italic;
         
     }
+}
+
+//-------------------call to action-------------//
+
+.cta__contaier{
+    max-width: 100%;
+}
+
+.cta__row{
+    display: flex;
+    flex-direction: row;
+    max-width: 1220px;
+    border: #0015fc 1px solid;
+    max-height: 370px;
+    overflow: hidden;
+}
+.cta__item{
+    background-color: #3c354a;
+    flex: 1 1 50%;
+    
+    
 }
 
 
