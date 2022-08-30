@@ -500,13 +500,15 @@ body {
 .testimonials__contaier {
   max-width: 886px;
   margin: 0 auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .testimonials__row {
   max-width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
   font-family: "GraphikMedium";
@@ -515,7 +517,6 @@ body {
   letter-spacing: 0.2px;
   text-align: left;
   font-weight: 400;
-  border: 1px red solid;
 }
 
 .testimonials__story {
@@ -524,7 +525,7 @@ body {
   border: 1px #DEDEDE solid;
   flex: 0 1 430px;
   overflow: hidden;
-  background-color: #3c354a;
+  width: 100%;
 }
 .testimonials__story .ava-name-job {
   display: flex;
@@ -543,7 +544,6 @@ body {
 .testimonials__story .ava-name-job .name-job {
   flex: 0 1 auto;
   max-height: auto;
-  text-align: left;
   padding-left: 8px;
 }
 .testimonials__story .story {
