@@ -103,7 +103,6 @@ body {
   max-width: 100vw;
   align-items: center;
   margin-bottom: 100px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #0E0E0E 80%) 50% 50%;
 }
 
 .header__container {
@@ -229,16 +228,23 @@ body {
   border: #4452FE 1px solid;
 }
 
-.header__screens {
-  max-height: 993px;
-  padding-bottom: 150px;
-  display: flex;
-  justify-content: center;
+.header__screens-background {
+  max-width: 100vw;
+  text-align: center;
 }
-.header__screens img {
+
+.header__background {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0));
+  z-index: 2;
+}
+.header__background img {
+  max-width: 90%;
+  margin: 0 auto;
   display: block;
-  max-width: 100%;
-  opacity: 0, 92;
+  position: relative;
+  z-index: -1;
 }
 
 .headbox {
