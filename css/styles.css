@@ -554,6 +554,7 @@ body {
 .cta__contaier {
   max-width: 100%;
   padding: 80px auto;
+  margin-bottom: 80px;
 }
 
 .cta__row {
@@ -562,6 +563,7 @@ body {
   max-width: 1220px;
   margin: 0 auto;
   max-height: 370px;
+  margin-bottom: 80px;
   overflow: hidden;
   border-radius: 20px;
   background-color: #343434;
@@ -591,4 +593,51 @@ body {
 .cta__right-item img {
   position: relative;
   top: 170px;
+}
+
+.footer__container {
+  color: white;
+  max-width: 1032px;
+  margin: 0 auto;
+}
+.footer__container a {
+  color: white;
+}
+
+.footer__row {
+  display: flex;
+  flex-direction: row;
+  gap: 8%;
+  max-width: 100%;
+}
+
+.left-links-block {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 0 45%;
+  gap: 75px;
+}
+
+.right-contacts-block {
+  flex: 1 1 45%;
+  border: #b83535 1px solid;
+}
+
+.links-column {
+  font-family: "GraphikMedium";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+.links-column li {
+  margin-bottom: 15px;
+}
+.links-column li:first-child {
+  font-size: 20px;
+  margin-bottom: 40px;
+  letter-spacing: 0.1px;
+}
+.links-column li:last-child {
+  margin-bottom: 0px;
 }/*# sourceMappingURL=styles.css.map */
