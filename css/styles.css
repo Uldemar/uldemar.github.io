@@ -598,7 +598,7 @@ body {
 .footer__container {
   color: white;
   max-width: 1032px;
-  margin: 0 auto;
+  margin: 107px auto;
 }
 .footer__container a {
   color: white;
@@ -607,7 +607,7 @@ body {
 .footer__row {
   display: flex;
   flex-direction: row;
-  gap: 8%;
+  gap: 4%;
   max-width: 100%;
 }
 
@@ -620,7 +620,6 @@ body {
 
 .right-contacts-block {
   flex: 1 1 45%;
-  border: #b83535 1px solid;
 }
 
 .links-column {
@@ -640,4 +639,25 @@ body {
 }
 .links-column li:last-child {
   margin-bottom: 0px;
+}
+
+.contacts__column {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 70px;
+  gap: 30px;
+}
+
+.contacts__string {
+  padding: 5px auto;
+}
+.contacts__string img {
+  vertical-align: middle;
+  margin: 5px 10px 2px 2px;
+}
+.contacts__string a {
+  vertical-align: middle;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
 }/*# sourceMappingURL=styles.css.map */
