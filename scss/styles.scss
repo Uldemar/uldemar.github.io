@@ -56,6 +56,7 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1 1 auto; //футер прижали контентом к низу
+    gap:100px;
 
 }
 
@@ -400,11 +401,10 @@ body{
 .contacts__column{
     display: flex;
     flex-direction: column;
-    padding: 5px 70px;
+    padding: 0px 70px;
     gap: 30px;}
 
 .contacts__string{
-    padding: 5px auto;
     img{
         vertical-align: middle;
         margin: 5px 10px 2px 2px;
