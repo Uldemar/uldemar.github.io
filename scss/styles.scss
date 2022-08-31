@@ -26,6 +26,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100%; //чтобы оболочка заняла все окно браузера по высоте
+    gap:100px;
 }
 @import "header.scss";
 
