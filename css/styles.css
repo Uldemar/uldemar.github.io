@@ -260,13 +260,13 @@ body {
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0));
+  border: #4452FE 1px solid;
 }
-.header__background img {
-  max-width: 90%;
-  margin: 0 auto;
-  display: block;
-  position: relative;
-  z-index: -1;
+.header__background .header__screens {
+  display: flex;
+  max-width: 100%;
+  overflow: hidden;
+  flex-direction: column;
 }
 
 .main {
