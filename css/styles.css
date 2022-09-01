@@ -260,13 +260,35 @@ body {
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0));
-  border: #4452FE 1px solid;
 }
-.header__background .header__screens {
+
+.header__screens {
+  max-width: 80vw;
+  max-height: 80vw;
+  margin: 0 auto;
   display: flex;
-  max-width: 100%;
-  overflow: hidden;
   flex-direction: column;
+  border: #0015fc 1px solid;
+}
+.header__screens .first-string,
+.header__screens .second-string {
+  display: flex;
+  flex-direction: row;
+  flex: 0 1 50vh;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+.header__screens .first-string .dashboard,
+.header__screens .second-string .dashboard {
+  rotate: -90deg;
+}
+.header__screens .first-string .img,
+.header__screens .second-string .img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main {
